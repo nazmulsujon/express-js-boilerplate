@@ -31,7 +31,10 @@ const localGuardianSchema = new Schema<LocalGuardian>({
 //final and organize schema
 const studentSchema = new Schema<Student>({
   id: { type: String, required: true },
-  name: userNameSchema,
+  name: {
+    type: userNameSchema,
+    required: true,
+  },
   gender: { type: String, enum: ['male', 'female'], required: true },
   dateOfBirth: { type: String, required: true },
   email: { type: String, required: true, unique: true },
