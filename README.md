@@ -22,25 +22,34 @@ src/
 ├── services/      # Business logic
 ├── utils/         # Utility functions
 ```
-##Prerequisites
+## Prerequisites
+
 Ensure you have the following installed:
 
-Node.js (version 16 or higher)
-Yarn or npm
-MongoDB
-Getting Started
-Clone the repository
+- **Node.js** (version 16 or higher)
+- **Yarn** or **npm**
+- **MongoDB**
 
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-Install dependencies
+---
 
-Using Yarn:
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/nazmulsujon/express-js-boilerplate.git
+cd express-js-boilerplate
+```
+## Install Dependencies
+### Using Yarn:
+```bash
 yarn install
+```
 
-Or using npm:
-npm install
-
+### Or using npm:
+```bash
+npm install 
+```
 Environment Variables
 Create a .env file in the root directory and add the following variables:
 
