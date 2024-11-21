@@ -77,8 +77,9 @@ npm run build
 yarn dev / npm run dev: Start the development server with hot-reloading.
 yarn lint / npm run lint: Lint the code using ESLint.
 yarn build / npm run build: Compile TypeScript to JavaScript.
-
-API Endpoints
+```
+## API Endpoints
+```bash
 Example Routes
 GET /api/example: Fetch example data.
 POST /api/example: Create new data.
