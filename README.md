@@ -50,10 +50,10 @@ yarn install
 ```bash
 npm install 
 ```
-Environment Variables
+## Environment Variables
 Create a .env file in the root directory and add the following variables:
 
-env
+```bash
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/your_database_name
 Run the development server
@@ -71,7 +71,7 @@ yarn build
 
 Or using npm:
 npm run build
-
+```
 Available Scripts
 yarn dev / npm run dev: Start the development server with hot-reloading.
 yarn lint / npm run lint: Lint the code using ESLint.
