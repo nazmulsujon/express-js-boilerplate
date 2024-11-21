@@ -72,7 +72,8 @@ yarn build
 Or using npm:
 npm run build
 ```
-Available Scripts
+## Available Scripts
+```bash
 yarn dev / npm run dev: Start the development server with hot-reloading.
 yarn lint / npm run lint: Lint the code using ESLint.
 yarn build / npm run build: Compile TypeScript to JavaScript.
@@ -84,15 +85,15 @@ POST /api/example: Create new data.
 Test Routes
 GET /api/test: Test the API.
 POST /api/test: Test POST functionality.
-
-Tools and Libraries
-TypeScript
-Express.js
-Mongoose
-ESLint
-Prettier
-ts-node-dev
-dotenv
+```
+### Tools and Libraries
+**TypeScript**
+**Express.js**
+**Mongoose**
+**ESLint**
+**Prettier**
+**ts-node-dev**
+**dotenv**
 
 Contribution
 Feel free to submit issues or pull requests. Any contributions are highly appreciated!
